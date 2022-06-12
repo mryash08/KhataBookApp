@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bottomsheet"
+    android:orientation="vertical"
+    android:id="@+id/bottom1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Filter by"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:id="@+id/radio1"
+
+        android:gravity="center"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@android:color/transparent"
+            android:text="All"
+            android:id="@+id/all"
+            android:checked="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@drawable/filter"
+            android:layout_marginLeft="15dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@android:color/transparent"
+            android:text="You Will Get"
+            android:id="@+id/recive"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            android:background="@drawable/filter"
+            android:layout_marginLeft="15dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@android:color/transparent"
+            android:text="You Will Give"
+            android:id="@+id/paid"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            android:background="@drawable/filter"
+            android:layout_marginLeft="15dp"/>
+
+    </RadioGroup>
+
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="15dp"-->
+<!--        app:hintTextColor="@color/black"-->
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--        android:hint="Enter Your Business Name">-->
+
+
+
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:id="@+id/bus_name1"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submit"
+        android:layout_margin="5dp"/>
+    </LinearLayout>

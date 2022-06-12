@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+         <item name="bottomSheetStyle" >
+             @style/BottomSheetStyle
+         </item>
+    </style>
+    <style name="BottomSheetDialogTheme2" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle" >
+            @style/BottomSheetStyle
+        </item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+
+        <item name="android:background">
+
+        </item>
+    </style>
+    <style name="BottomSheetStyle2" parent="Widget.Design.BottomSheet.Modal">
+
+        <item name="android:background">
+
+        </item>
+    </style>
+</resources>

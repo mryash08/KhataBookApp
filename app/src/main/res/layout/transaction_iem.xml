@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:weightSum="4">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:background="#F6B5B5"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:cardBackgroundColor="#F6B5B5"
+        app:cardCornerRadius="5dp"
+        tools:ignore="Suspicious0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="16"
+                android:padding="5dp"
+                android:textSize="25sp"
+                android:id="@+id/date"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:layout_toRightOf="@+id/date"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JUl"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2021"/>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="1500"
+        android:layout_weight="1"
+        android:id="@+id/recive"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/green"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="1500"
+        android:id="@+id/paid"
+        android:layout_weight="1"
+        android:textColor="@color/red"
+        android:gravity="center"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="1500"
+        android:textColor="@color/black"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textAlignment="center"/>
+
+
+
+</LinearLayout>

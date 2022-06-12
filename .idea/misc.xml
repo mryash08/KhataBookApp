@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/rnw/KhataTracker/app/src/main/res/drawable/bottomsheet.xml" value="0.2025" />
+        <entry key="..\:/rnw/KhataTracker/app/src/main/res/drawable/cardviewborder.xml" value="0.2025" />
+        <entry key="..\:/rnw/KhataTracker/app/src/main/res/drawable/filter.xml" value="0.2025" />
+        <entry key="..\:/rnw/KhataTracker/app/src/main/res/drawable/formborder.xml" value="0.2025" />
+        <entry key="..\:/rnw/KhataTracker/app/src/main/res/drawable/homeheader.xml" value="0.2025" />
+        <entry key="..\:/rnw/KhataTracker/app/src/main/res/drawable/ic_baseline_filter_alt_24.xml" value="0.2025" />
+        <entry key="..\:/rnw/KhataTracker/app/src/main/res/layout/activity_add_customer.xml" value="0.25416666666666665" />
+        <entry key="..\:/rnw/KhataTracker/app/src/main/res/layout/activity_add_transaction.xml" value="0.25416666666666665" />
+        <entry key="..\:/rnw/KhataTracker/app/src/main/res/layout/activity_addtransaction.xml" value="0.25416666666666665" />
+        <entry key="..\:/rnw/KhataTracker/app/src/main/res/layout/activity_businessname.xml" value="0.25416666666666665" />
+        <entry key="..\:/rnw/KhataTracker/app/src/main/res/layout/activity_customer.xml" value="0.25416666666666665" />
+        <entry key="..\:/rnw/KhataTracker/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/rnw/KhataTracker/app/src/main/res/layout/activity_splashscreen.xml" value="0.25416666666666665" />
+        <entry key="..\:/rnw/KhataTracker/app/src/main/res/layout/activity_updatedata.xml" value="0.25" />
+        <entry key="..\:/rnw/KhataTracker/app/src/main/res/layout/bottomsheet.xml" value="0.25416666666666665" />
+        <entry key="..\:/rnw/KhataTracker/app/src/main/res/layout/content_add_transaction.xml" value="0.25" />
+        <entry key="..\:/rnw/KhataTracker/app/src/main/res/layout/filterbottomsheet.xml" value="0.25416666666666665" />
+        <entry key="..\:/rnw/KhataTracker/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/rnw/KhataTracker/app/src/main/res/layout/fragment_money.xml" value="0.25416666666666665" />
+        <entry key="..\:/rnw/KhataTracker/app/src/main/res/layout/homerecy.xml" value="0.25416666666666665" />
+        <entry key="..\:/rnw/KhataTracker/app/src/main/res/layout/transaction_iem.xml" value="0.25052083333333336" />
+        <entry key="..\:/rnw/KhataTracker/app/src/main/res/menu/customer.xml" value="0.11302083333333333" />
+        <entry key="..\:/rnw/KhataTracker/app/src/main/res/menu/homemenu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
